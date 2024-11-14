@@ -1,4 +1,4 @@
-# Challenge conversor divisas
+# Challenge Conversor de Monedas
 Challenge conversor de monedas en tiempo real consultando API.
 
 ## Caracteristicas
@@ -32,10 +32,13 @@ Challenge conversor de monedas en tiempo real consultando API.
 ## Autor
 ### Alexander López Bueno
 
-### Herramientas utilizadas:
+## Herramientas utilizadas:
 
 * Java
 
+## Contacto
+
+### Correo: lopezbueno.al144@gmail.com
 ### Linkedin: https://linkedin.com/in/alexanderlópezbuenodev
-### Instagram: https://instagram.com/alexander_lo12
+### Instagram: https://instagram.com/alexander_lo_bu
 ### GitHub: https://github.com/AlexanderLopezDev
