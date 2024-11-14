@@ -1,6 +1,5 @@
 package com.conversordemoneda.principal;
 
-import com.conversordemoneda.modelos.ConsultaMoneda;
 import com.conversordemoneda.modelos.FiltraMoneda;
 import com.conversordemoneda.Moneda;
 
@@ -9,7 +8,6 @@ import java.util.Scanner;
 public class Principal {
     public static void main(String[] args) {
         Scanner lectura = new Scanner(System.in);
-        ConsultaMoneda consulta = new ConsultaMoneda();
         FiltraMoneda filtra = new FiltraMoneda();
         try {
             filtra.mostrarOpcionesDeMoneda("Moneda base");

@@ -3,7 +3,7 @@ package com.conversordemoneda.modelos;
 import com.conversordemoneda.Moneda;
 
 public class FiltraMoneda {
-    private ConsultaMoneda consulta = new ConsultaMoneda();
+    private final ConsultaMoneda consulta = new ConsultaMoneda();
 
     public Moneda consultaMonedaBase(String monedaBase) {
         Moneda resultado = consulta.buscarMoneda(monedaBase);
@@ -61,11 +61,5 @@ public class FiltraMoneda {
         System.out.println("************************************************************************");
         System.out.println("Escribe " + tipoMoneda + " (por ejemplo, USD, EUR, COP, CLP, BRL, BOB, ARS): ");
         System.out.println("************************************************************************");
-    }
-
-    public class CurrencyNotFoundException extends Exception {
-        public CurrencyNotFoundException(String mensaje) {
-            super(mensaje);
-        }
     }
 }
