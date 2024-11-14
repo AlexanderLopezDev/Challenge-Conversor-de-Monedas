@@ -13,10 +13,10 @@ public record Moneda(String base_code,
     public Moneda {
         try {
             if (!MONEDAS_PERMITIDAS.contains(base_code.toUpperCase())) {
-                throw new IllegalArgumentException("com.conversordemoneda.modelo.Moneda no permitida: " + base_code);
+                throw new IllegalArgumentException("Moneda no permitida: " + base_code);
             }
         } catch (IllegalArgumentException e) {
-            System.out.print("************************************************************************");
+            System.out.println("************************************************************************");
         }
     }
 }

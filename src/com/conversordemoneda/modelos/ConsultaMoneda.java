@@ -20,6 +20,8 @@ public class ConsultaMoneda {
                     .send(request, HttpResponse.BodyHandlers.ofString());
             if (response.statusCode() != 200) {
                 System.out.println("Error en consulta. Código HTTP: " + response.statusCode());
+                System.out.println("Terminando programa...");
+                System.exit(1);
                 throw new RuntimeException("Error al obtener los datos de la API. Código  HTTP: " + response.statusCode());
             }
             return new Gson().fromJson(response.body(), Moneda.class);

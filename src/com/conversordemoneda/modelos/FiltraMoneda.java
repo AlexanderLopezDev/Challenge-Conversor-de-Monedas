@@ -10,7 +10,7 @@ public class FiltraMoneda {
         if (resultado == null ) {
             System.out.println("No se encontró información para la moneda base: " + monedaBase);
         } else {
-            System.out.println("com.conversordemoneda.modelo.Moneda base seleccionada: " + resultado.base_code());
+            System.out.println("Moneda base seleccionada: " + resultado.base_code());
         }
         return resultado;
     }
@@ -19,7 +19,7 @@ public class FiltraMoneda {
         if (resultado == null) {
             System.out.println("No se encontró información para la moneda destino: " + monedaDestino);
         } else {
-            System.out.println("com.conversordemoneda.modelo.Moneda destino seleccionada: " + resultado.base_code());
+            System.out.println("Moneda destino seleccionada: " + resultado.base_code());
         }
         return resultado;
     }

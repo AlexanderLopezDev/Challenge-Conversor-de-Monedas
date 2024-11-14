@@ -12,19 +12,19 @@ public class Principal {
         ConsultaMoneda consulta = new ConsultaMoneda();
         FiltraMoneda filtra = new FiltraMoneda();
         try {
-            filtra.mostrarOpcionesDeMoneda("com.conversordemoneda.modelo.Moneda base");
+            filtra.mostrarOpcionesDeMoneda("Moneda base");
             String MonedaCambio = lectura.nextLine().toUpperCase();
             Moneda mBase = filtra.consultaMonedaBase(MonedaCambio);
             if (!Moneda.MONEDAS_PERMITIDAS.contains(MonedaCambio)) {
-                System.out.println("com.conversordemoneda.modelo.Moneda base no válida. Terminando programa...");
+                System.out.println("Moneda base no válida. Terminando programa...");
                 return;
             }
 
-            filtra.mostrarOpcionesDeMoneda("com.conversordemoneda.modelo.Moneda destino");
+            filtra.mostrarOpcionesDeMoneda("Moneda destino");
             String MonedaRecibir = lectura.nextLine().toUpperCase();
             Moneda mDestino = filtra.consultaMonedaDestino(MonedaRecibir);
             if (!Moneda.MONEDAS_PERMITIDAS.contains(MonedaRecibir)) {
-                System.out.println("com.conversordemoneda.modelo.Moneda destino no válida. Terminando programa...");
+                System.out.println("Moneda destino no válida. Terminando programa...");
                 return;
             }
 
