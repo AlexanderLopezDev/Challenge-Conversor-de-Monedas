@@ -36,6 +36,9 @@ Challenge conversor de monedas en tiempo real consultando API.
 
 * Java
 
+## Contacto
+
+### Correo: lopezbueno.al144@gmail.com
 ### Linkedin: https://linkedin.com/in/alexanderlópezbuenodev
-### Instagram: https://instagram.com/alexander_lo12
+### Instagram: https://instagram.com/alexander_lo_bu
 ### GitHub: https://github.com/AlexanderLopezDev
